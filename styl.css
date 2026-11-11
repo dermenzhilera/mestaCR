@@ -1,0 +1,66 @@
+:root {
+  --text: #1f2a30;
+  --pozadi: #f6f8f7;
+  --akcent: #1b6b5a;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--pozadi);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hlavicka {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #d5dcd9;
+}
+
+.hlavicka h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.hlavicka p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #55646b;
+}
+
+#mapa {
+  flex: 1;
+  min-height: 0;
+}
+
+.popup h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  color: var(--akcent);
+}
+
+.popup p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.popup small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #7a878d;
+}
+
+.chyba {
+  color: #a32020;
+  font-weight: 600;
+}
