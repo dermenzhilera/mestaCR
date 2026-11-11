@@ -8,7 +8,10 @@
         "nazev": "Olomouc",
         "popis": "Historické město na řece Moravě, sídlo Univerzity Palackého a Sloupu Nejsvětější Trojice (UNESCO)."
       },
-      "geometry": { "type": "Point", "coordinates": [17.2509, 49.5938] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2509, 49.5938]
+      }
     },
     {
       "type": "Feature",
@@ -17,7 +20,22 @@
         "nazev": "Praha",
         "popis": "Hlavní a největší město České republiky na řece Vltavě."
       },
-      "geometry": { "type": "Point", "coordinates": [14.4378, 50.0755] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4378, 50.0755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nazev": "Oděsa",
+        "popis": "Přístavní město na pobřeží Černého moře na jihu Ukrajiny; její historické centrum je od roku 2023 na seznamu UNESCO."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.7233, 46.4825]
+      }
     }
   ]
 }
